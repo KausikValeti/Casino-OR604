@@ -1,0 +1,30 @@
+Optimize a model with 12 rows, 28 columns and 84 nonzeros
+Variable types: 0 continuous, 28 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 6e+00]
+  Objective range  [6e+02, 3e+03]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+02, 1e+03]
+Found heuristic solution: objective 1368500.0000
+Presolve time: 0.00s
+Presolved: 12 rows, 28 columns, 84 nonzeros
+Variable types: 0 continuous, 28 integer (0 binary)
+
+Root relaxation: objective 2.094875e+06, 13 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2094875.00    0    5 1368500.00 2094875.00  53.1%     -    0s
+H    0     0                    2094850.0000 2094875.00  0.00%     -    0s
+
+Explored 1 nodes (13 simplex iterations) in 0.01 seconds
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 2.09485e+06 1.3685e+06 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 2.094850000000e+06, best bound 2.094850000000e+06, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 09/07/20 16:04:03
+
